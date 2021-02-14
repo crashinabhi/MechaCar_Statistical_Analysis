@@ -30,15 +30,15 @@ But when the summary of lot wise production is seen lot 3 stands out of the 3 lo
 
 When we run a t-test random sample of the PSI versus the population of manufacturing lots we see that the p-value we get is 0.952 which means that it is above our significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. 
 
-![](t-test_1.png)
+![](t-test_lot1.png)
 
 When we run a t-test of lot 1 versus the population of manufacturing lots we see that the p-value we get is 0.00000000000935 (9.35e-12) which means that it is far below our significance level of 0.05. Which means there is a statistical difference between the observed sample mean and its population mean.
 
-![](t-test_1.png)
+![](t-test_lot2.png)
 
 When we run a t-test of lot 2 versus the population of manufacturing lots we see that the p-value we get is 0.0005082 which means that it is far below our significance level of 0.05. Which means there is a statistical difference between the observed sample mean and its population mean.
 
-![](t-test_1.png)
+![](t-test_lot3.png)
 
 When we run a t-test of lot 3 versus the population of manufacturing lots we see that the p-value we get is 0.1549 which means that it is above our significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
