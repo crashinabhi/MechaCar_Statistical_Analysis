@@ -4,7 +4,7 @@
 
 ### Summary
 
-![](Checkout_time.png)
+![](regression_image.png)
 
 Vehicle weight provided a non-random amount of variance to the mpg values in the dataset.
 The slope of the linear model is considered to be zero because the p value (5.35e-11) of the linear model is smaller than the significance of 0.05.
@@ -14,11 +14,11 @@ This linear model does not predict mpg of MechaCar prototypes effectively becaus
 
 ### Summary
 
-![](Checkout_time.png)
+![](total_summary.png)
 
 As per the summary of total lots it's evident that the variance is within the 100 pounds per square inch.
 
-![](Checkout_time.png)
+![](lot_summary.png)
 
 But when the summary of lot wise production is seen lot 3 stands out of the 3 lot as variance of lot 3 exceeds 100 pounds per square inch. 
 
@@ -26,23 +26,21 @@ But when the summary of lot wise production is seen lot 3 stands out of the 3 lo
 
 ### Summary
 
-![](Checkout_time.png)
+![](t-test_1.png)
 
 When we run a t-test random sample of the PSI versus the population of manufacturing lots we see that the p-value we get is 0.952 which means that it is above our significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. 
 
-![](Checkout_time.png)
+![](t-test_1.png)
 
 When we run a t-test of lot 1 versus the population of manufacturing lots we see that the p-value we get is 0.00000000000935 (9.35e-12) which means that it is far below our significance level of 0.05. Which means there is a statistical difference between the observed sample mean and its population mean.
 
-![](Checkout_time.png)
+![](t-test_1.png)
 
 When we run a t-test of lot 2 versus the population of manufacturing lots we see that the p-value we get is 0.0005082 which means that it is far below our significance level of 0.05. Which means there is a statistical difference between the observed sample mean and its population mean.
 
-![](Checkout_time.png)
+![](t-test_1.png)
 
 When we run a t-test of lot 3 versus the population of manufacturing lots we see that the p-value we get is 0.1549 which means that it is above our significance level of 0.05. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
-
-![](Checkout_time.png)
 
 THis says that although the random sample is similar to the population, lots 1 and 2 independently differ statistically.
 
